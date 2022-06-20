@@ -1,6 +1,90 @@
 body{
-	font-family: klavika-web, sans-serif;
-	font-style: normal;
-	font-weight: 300;
-	background-color: ;
+    background-color: #222831;
+    padding: 0;
+    margin: 0;
+    font-family: 'Ubuntu', sans-serif;
+    box-sizing: border-box;
+}
+
+input:not([type="checkbox"]), a{
+    display: block;
+}
+
+form{
+    padding: 25px 30px;
+    width: 40%;
+    max-width: 500px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 20px;
+    background-color: #EEEEEE;
+}
+
+input, a{
+    cursor: pointer;
+}
+
+input[type="email"], input[type="password"]{
+    width: 100%;
+    font-size: 18px;
+    border: none;
+    background-color: #EEEEEE;
+    border-bottom: solid 2px #222831;
+    margin-bottom: 25px;
+    outline: none;
+}
+
+input[type="email"]:hover, input[type="password"]:hover{
+    border-bottom: solid 2px #393E46;
+}
+
+input[type="password"]{
+    margin-bottom: 20px;
+}
+
+input[type="email"]:focus, input[type="password"]:focus{
+    border-bottom: solid 2px #00ADB5;
+}
+
+input[type="submit"]{
+    border-radius: 30px;
+    background-color: #00ADB5;
+    border: none;
+    color: #EEEEEE;
+    position: relative;
+    left: 50%;
+    transform: translate(-50%, 0);
+    height: 30px;
+    width: 50%;
+    margin-top: 10px;
+    font-size: 20px;
+    letter-spacing: 2px;
+}
+
+input[type="submit"]:hover{
+    background-color: #00a2ad;
+    color: #e6e6e6;
+}
+
+input[type="checkbox"]{
+    transform: translate(-2px, 3px);
+    margin-bottom: 10px;;
+}
+
+input[type="checkbox"]:checked{
+    background-color: #00ADB5;
+    color: #EEEEEE;
+}
+
+a {
+    color: #222831;
+    text-decoration: none;
+    margin-bottom: 20px;
+}
+
+a:hover{
+    text-decoration: underline;
+    color: #393E46;
 }
