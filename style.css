@@ -1,8 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Cairo:wght@300&family=Ubuntu:wght@300&display=swap');
+
 body{
     background-color: #222831;
     padding: 0;
     margin: 0;
-    font-family: 'Ubuntu', sans-serif;
+    font-family: 'Cairo', sans-serif;
 }
 
 input:not([type="checkbox"]), a{
