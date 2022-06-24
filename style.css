@@ -7,7 +7,7 @@ body{
     font-family: 'Cairo', sans-serif;
 }
 
-input:not([type="checkbox"]), a{
+input:not([type="checkbox"]){
     display: block;
 }
 
@@ -91,4 +91,9 @@ a {
 a:hover{
     text-decoration: underline;
     color: #393E46;
+}
+
+#remember + a{
+    display: block;
+    width: fit-content;
 }
