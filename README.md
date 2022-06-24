@@ -5,7 +5,7 @@
 
 <h1>Screenshot</h1>
 
-<img src="screenshot.PNG" alt="Page's screenshot.">
+<img src="imgs/screenshot.PNG" alt="Page's screenshot.">
 
 <h1>More Info</h1>
 
