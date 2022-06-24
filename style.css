@@ -105,6 +105,6 @@ a:hover{
     width: fit-content;
 }
 
-p > a {
+p{
     text-align: center;
 }
