@@ -43,6 +43,7 @@ input[type="email"], input[type="password"]{
     border-bottom: solid 2px var(--black);
     margin-bottom: 25px;
     outline: none;
+    transition: border-bottom 0.7s;
 }
 
 input[type="email"]:hover, input[type="password"]:hover{
@@ -71,6 +72,7 @@ input[type="submit"]{
     margin-top: 10px;
     font-size: 20px;
     letter-spacing: 2px;
+    transition: color 0.7s, background-color 0.7s;
 }
 
 input[type="submit"]:hover{
