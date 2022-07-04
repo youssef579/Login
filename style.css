@@ -1,28 +1,32 @@
 @import url('https://fonts.googleapis.com/css2?family=Cairo:wght@300&family=Ubuntu:wght@300&display=swap');
 
-:root{
-    --blue:  #00ADB5;
+:root {
+    --blue: #00ADB5;
     --white: #EEEEEE;
     --black: #222831;
     --grey: #393E46;
 }
 
-body{
+* {
+    box-sizing: border-box;
+}
+
+body {
     background-color: var(--black);
     padding: 0;
     margin: 0;
     font-family: 'Cairo', sans-serif;
 }
 
-input:not([type="checkbox"]){
+input:not([type="checkbox"]) {
     display: block;
 }
 
-form{
+form {
     padding: 25px 30px 20px 30px;
     width: 40%;
     max-width: 500px;
-    min-width: 100px;
+    min-width: 150px;
     position: absolute;
     top: 50%;
     left: 50%;
@@ -31,11 +35,13 @@ form{
     background-color: var(--white);
 }
 
-input, a{
+input,
+a {
     cursor: pointer;
 }
 
-input[type="email"], input[type="password"]{
+input[type="email"],
+input[type="password"] {
     width: 100%;
     font-size: 18px;
     border: none;
@@ -46,19 +52,21 @@ input[type="email"], input[type="password"]{
     transition: border-bottom 0.7s;
 }
 
-input[type="email"]:hover, input[type="password"]:hover{
+input[type="email"]:hover,
+input[type="password"]:hover {
     border-bottom: solid 2px var(--grey);
 }
 
-input[type="password"]{
+input[type="password"] {
     margin-bottom: 20px;
 }
 
-input[type="email"]:focus, input[type="password"]:focus{
+input[type="email"]:focus,
+input[type="password"]:focus {
     border-bottom: solid 2px var(--blue);
 }
 
-input[type="submit"]{
+input[type="submit"] {
     border-radius: 30px;
     background-color: var(--blue);
     border: none;
@@ -75,18 +83,18 @@ input[type="submit"]{
     transition: color 0.7s, background-color 0.7s;
 }
 
-input[type="submit"]:hover{
+input[type="submit"]:hover {
     background-color: #00a2ad;
     color: #e6e6e6;
 }
 
-input[type="checkbox"]{
+input[type="checkbox"] {
     transform: translate(-2px, 3px);
     margin-bottom: 10px;
     outline: none;
 }
 
-input[type="checkbox"]:checked{
+input[type="checkbox"]:checked {
     background-color: var(--blue);
     color: var(--white);
 }
@@ -97,16 +105,16 @@ a {
     margin-bottom: 20px;
 }
 
-a:hover{
+a:hover {
     text-decoration: underline;
     color: var(--grey);
 }
 
-#remember + a{
+#remember+a {
     display: block;
     width: fit-content;
 }
 
-p{
+p {
     text-align: center;
 }
